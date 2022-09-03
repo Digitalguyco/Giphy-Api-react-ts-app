@@ -1,6 +1,8 @@
 import { Dispatch } from "redux"
 import { Action } from "../actions/index"
 
+// All the action creators are here
+
 export const loading = () => {
     return (dispatch: Dispatch<Action>) => dispatch({
         type: "Loading"
@@ -23,6 +25,7 @@ export const noterror = () => {
     })
 }
 
+// add data to the store, receives payload with type of {}
 export const adddata = (data: {}) => {
     return (dispatch: Dispatch<Action>) => {
         dispatch({

@@ -1,3 +1,4 @@
+// Error Component
 const Error = () => {
       return (
         <div

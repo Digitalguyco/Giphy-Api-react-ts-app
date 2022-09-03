@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from 'react-loader-spinner'
 
+// Loading spinner component with react-loader-spinner
 const Spinner:React.FC = () => {
   return (
     <Grid

@@ -16,7 +16,7 @@ const App: React.FC = () => {
 
   const loadingstate = useSelector((state: RootState) => state.loading)
   const errorstate = useSelector((state: RootState) => state.error)
-  console.log(loadingstate)
+  // console.log(loadingstate)
   // console.log(errorstate)
 
   return (

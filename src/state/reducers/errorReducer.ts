@@ -1,5 +1,7 @@
 import { Action } from "../actions"
 
+// errorReducer manage error state
+
 const initialState: boolean = false ;
 
 const errorReducer = (state: boolean = initialState, action: Action): boolean => {

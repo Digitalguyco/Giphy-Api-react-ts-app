@@ -1,5 +1,7 @@
 import { Action } from "../actions"
 
+// loadingReducer manage loading state
+
 const initialState: boolean = false ;
 
 const loadingReducer = (state: boolean = initialState, action: Action): boolean => {

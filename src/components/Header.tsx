@@ -1,11 +1,10 @@
-import { InputGroup } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Search from './Search';
 
 
 
-
+// navbar component with search
 const Mynavbar: React.FC = () =>  {
   return (
     <Navbar bg="dark" expand="lg" className='mb-3'>
@@ -17,8 +16,7 @@ const Mynavbar: React.FC = () =>  {
   );
 }
 
-
-
+// Header component with navbar
 const Header: React.FC= () => {
   return (
     <header>
