@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project is Built on [Typescript](https://www.typescriptlang.org/).
 
 
-### [Live Preview](https://elevate-react-ts-app.herokuapp.com/)
+# [Live Preview](https://elevate-react-ts-app.herokuapp.com/)
 
 ## List of 3rd party dependencies:
 ===============================
@@ -30,6 +30,8 @@ and more....
 -> Deployed on Heroku, see Live Preview
 -> Built on Typescript
 
+
+## This  Project is Fully Open Source feel Free to Contribute and use!
 ## Available Scripts
 
 In the project directory, you can run:
