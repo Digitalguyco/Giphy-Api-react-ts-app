@@ -14,9 +14,8 @@ const Giphy: any = () => {
     const state = useSelector((state: RootState) => state.data)
     const dispatch = useDispatch();
     const {adddata,  notloading, error, noterror} = bindActionCreators(actionCreators, dispatch);
-    const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(10);
-    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfLastItem = 1 * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentItems = state.slice(indexOfFirstItem, indexOfLastItem);
     
@@ -31,7 +30,7 @@ useEffect(() => {
         const results = await axios("https://api.giphy.com/v1/gifs/trending", {
           params: {
             api_key: "MtQTege7W2Z80Cj1EBmX7AbC126ld0fy",
-            limit: 50
+            limit: 100
           }
         });
 

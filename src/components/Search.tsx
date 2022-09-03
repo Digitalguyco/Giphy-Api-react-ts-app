@@ -31,7 +31,7 @@ const Search: React.FC  = () => {
               params: {
                 api_key: "MtQTege7W2Z80Cj1EBmX7AbC126ld0fy",
                 q: searchdata,
-                limit: 50
+                limit: 100
               }
             });
             if (results.data.data.length !== 0){
