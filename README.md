@@ -7,7 +7,7 @@ This project is Built on [Typescript](https://www.typescriptlang.org/).
 # [Live Preview](https://elevate-react-ts-app.herokuapp.com/)
 
 ## List of 3rd party dependencies:
-===============================
+
 [InfiniteScroll](https://github.com/ankeetmaini/react-infinite-scroll-component)
 [LoaderSpinner](https://mhnpd.github.io/react-loader-spinner/)
 [ReactIcons](https://react-icons.github.io/react-icons/)
@@ -15,11 +15,11 @@ This project is Built on [Typescript](https://www.typescriptlang.org/).
 [Redux](https://redux.js.org/)
 [Axios](https://axios-http.com/docs/intro)
 and more....
-===============================
 
 
-## Little List Of App Funtionalities
-===============================
+
+## Little List Of App Funtionalities:
+
 -> React Web App
 -> Consume Giphy REST Api
 -> Using Redux for state management
