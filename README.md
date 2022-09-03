@@ -1,11 +1,42 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is Built on [Typescript](https://www.typescriptlang.org/).
+
+
+### [Live Preview](https://elevate-react-ts-app.herokuapp.com/)
+
+## List of 3rd party dependencies:
+===============================
+[InfiniteScroll](https://github.com/ankeetmaini/react-infinite-scroll-component)
+[LoaderSpinner](https://mhnpd.github.io/react-loader-spinner/)
+[ReactIcons](https://react-icons.github.io/react-icons/)
+[ReactBoostrap](https://react-bootstrap.github.io/)
+[Redux](https://redux.js.org/)
+[Axios](https://axios-http.com/docs/intro)
+and more....
+===============================
+
+
+## Little List Of App Funtionalities
+===============================
+-> React Web App
+-> Consume Giphy REST Api
+-> Using Redux for state management
+-> Using Redux Thunk for async actions
+-> Search Functionality
+-> Infinite Scroll i.e. Load more items on scroll
+-> 10 Items per Page
+-> Deployed on Heroku, see Live Preview
+-> Built on Typescript
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm Install`
+
+Then
 ### `npm start`
 
 Runs the app in the development mode.\
