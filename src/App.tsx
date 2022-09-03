@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import Footer from './components/Footer';
+import Giphy from './components/Giphy';
+import Header from './components/Header';
+import Container from 'react-bootstrap/Container';
+import Spinner from "./components/Spinner";
+import Error from "./components/Error";
+import {  useSelector } from 'react-redux';
+import { RootState } from './state/reducers';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
+
+const App: React.FC = () => {
+
+
+  const loadingstate = useSelector((state: RootState) => state.loading)
+  const errorstate = useSelector((state: RootState) => state.error)
+  console.log(loadingstate)
+  // console.log(errorstate)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header  />
+      {errorstate && <Error />}
+      <Container className='loader'>
+      {loadingstate?  <Spinner />: null}    
+  </Container>
+
+      <Giphy/>
+      <Footer/>
+    </>
+    
   );
 }
 
