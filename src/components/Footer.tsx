@@ -1,4 +1,4 @@
-// Footer Component. Currently wrapped in div root, would cause to not be fixed
+// Footer Component. Currently not fixed at the bottom of the page
 const Footer = () => {
   return (
     <>
